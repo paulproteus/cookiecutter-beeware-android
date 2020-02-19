@@ -27,6 +27,7 @@ function addPython() {
 
 function addPythonCode() {
     app_dir="$PWD/app/src/main/assets/python/$DEFAULT_PYTHON_APP_NAME"
+    mkdir -p "$app_dir"
     cat > "$app_dir/__init__.py" <<EOF
 from rubicon.java import JavaClass, JavaInterface
 
