@@ -2,5 +2,5 @@
 # TODO: Separate app_path & app_packages_path.
 app_path = "app/src/main/assets/python"
 app_packages_path = "app/src/main/assets/python"
-support_path = "./"
+support_path = "app"
 
